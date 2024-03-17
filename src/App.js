@@ -6,7 +6,7 @@ import DataProvider from './context/DataProvider';
 
 function App() {
   return (
-    // so we could able to use all the components inside the dataprovider 
+    // so we could able to use all the components inside the dataprovider for the app
     <DataProvider >
       <Header />
       <Box style={{marginTop:54}}>
